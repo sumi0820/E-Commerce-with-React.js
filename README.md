@@ -31,4 +31,4 @@
         - https://medium.com/@to.richard.hong/building-stripe-payment-with-react-js-cb07e376197c  
         - https://www.youtube.com/watch?v=lkA4rmo7W6k&t=131s  
   
-- # E-Commerce-with-React.js
+
