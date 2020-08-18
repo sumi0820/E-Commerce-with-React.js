@@ -1,0 +1,68 @@
+
+.admin {
+    height: 100%;
+    display: flex;
+}
+
+
+.admin__left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.admin__container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #131A22;
+    padding:0 10px ;
+    margin-left: 0px;
+    height: 100%;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+}
+
+.admin__container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.admin__container > form >h5 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.admin__container > form > input {
+    height: 30px;
+    background-color: white;
+    width: 90%;
+    margin:0 10px;
+}
+
+.admin__adminButton {
+    border-radius: 2px;
+    width: 90%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #DF5106;
+    color: white;
+    font-weight: 800;
+    border: 1px solid white
+}
+
+.admin__containerRight {
+    background-color: #EAEDED;
+    height: 100%;
+    width: 100%;
+}
+
+
+

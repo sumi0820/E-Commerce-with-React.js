@@ -1,0 +1,50 @@
+.header {
+    background-color: #131921;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    width: 300px;
+    margin: 20px 20px;
+    object-fit: contain;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__link {
+    margin: 0 10px;
+}
+
+.header__lineOne {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.header__lineTwo {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0 10px;
+}
+
+.header__loggedin{
+    display: flex;
+}
+
+.header__adminPortal {
+    color: white;
+    margin: 0 20px;
+    padding:5px;
+    font-weight: 500;
+    border: 1px solid white;
+}

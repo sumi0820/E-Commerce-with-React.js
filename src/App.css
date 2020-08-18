@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 800;
+  font-size: 12px;
+}

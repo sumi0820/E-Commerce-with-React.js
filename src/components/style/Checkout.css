@@ -1,0 +1,24 @@
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.checkout__checkoutProduct {
+    margin: 0 300px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.checkout__content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.checkout__subtotal {
+    display: flex;
+    flex: 1;
+}

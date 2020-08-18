@@ -1,0 +1,21 @@
+.payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment > form > h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.payment > form > button {
+    width: 100%;
+    margin: 10px;
+}

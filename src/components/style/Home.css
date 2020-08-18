@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #EAEDED;
+    
+}
+
+.home__container {
+    display: flex;
+    justify-content: center;
+}
+
+.home__row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 5px;  
+    max-width: 1500px;
+}
+
