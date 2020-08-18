@@ -8,7 +8,7 @@ import {auth} from '../fb/firebase'
 const Header = () => {
     const [{ cart, user, email }, dispatch] = useStateValue();
     const history = useHistory();
-    const admin = "test@gmail.com"
+    const admin = "admin@gmail.com"
 
     const logout = () => {
         auth.signOut()

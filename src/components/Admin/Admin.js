@@ -6,9 +6,10 @@ import { useStateValue } from '../../store/StateProvider';
 import {db} from '../../fb/firebase'
 import firebase from 'firebase'
 
+
 const Admin = () => {
     const [{ user,email }] = useStateValue();
-    const adminEmail = "test@gmail.com"
+    const adminEmail = "admin@gmail.com"
     
     const [title, setTitle] = useState();
     const [price, setPrice] = useState();

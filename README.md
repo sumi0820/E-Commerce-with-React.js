@@ -1,5 +1,14 @@
 # E-Commerce with React.js
 
+### Technology
+- React.js
+- Firebase
+
+- Demo
+    - https://shop-app-616bf.web.app/
+    - AdminEmail: admin@gmail.com / AdminPassword: admin12345
+
+
 ### Try
 - First online shop site
 - Adding to/removing from cart with React context API

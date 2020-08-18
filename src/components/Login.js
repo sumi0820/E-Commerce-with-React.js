@@ -8,7 +8,7 @@ const Login = () => {
     const history = useHistory();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const admin = "test@gmail.com"
+    const admin = "admin@gmail.com"
 
     const login = (e) => {
         e.preventDefault();
