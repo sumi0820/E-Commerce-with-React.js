@@ -16,6 +16,8 @@ const AdminProduct = ({id, title, imageUrl, price, rating, stock}) => {
             console.log("New product deleted!");
     }
 
+    const rate = parseInt(rating);
+
 
     return (
         <div className="adminProduct">
@@ -36,7 +38,7 @@ const AdminProduct = ({id, title, imageUrl, price, rating, stock}) => {
             </p>
             )} 
                 <div className="adminProduct__rating">
-                    {Array(rating)
+                    {Array(rate)
                     .fill()
                     .map((_) => (
                         <p><img src="https://img.icons8.com/ios-glyphs/30/000000/mario-8-bit.png"/></p>

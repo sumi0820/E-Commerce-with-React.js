@@ -20,6 +20,7 @@ const Product = ({id, title, imageUrl, price, rating, stock}) => {
         })
 
     }
+    const rate = parseInt(rating);
     
     return (
         <div className="product">
@@ -40,7 +41,7 @@ const Product = ({id, title, imageUrl, price, rating, stock}) => {
             </p>
             )} 
                 <div className="product__rating">
-                    {Array(rating)
+                    {Array(rate)
                     .fill()
                     .map((_) => (
                         <p><img src="https://img.icons8.com/ios-glyphs/30/000000/mario-8-bit.png"/></p>
